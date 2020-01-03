@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+bs4 = "*"
+requests = "*"
+flask = "*"
+lxml = "*"
+flask-migrate = "*"
+sqlalchemy = "*"
+flask-sqlalchemy = "*"
+sqlalchemy-utils = "*"
+passlib = "*"
+flask-marshmallow = "*"
+
+[requires]
+python_version = "3.7"
+
+[scripts]
+get = 'python /Users/takahiro/projects/site-watcher/src/cron/property.py'
